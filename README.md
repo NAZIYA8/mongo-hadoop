@@ -7,10 +7,10 @@ Create a directory to store the data i.e. csv file into the hdfs.
 $ hadoop fs -mkdir /mongo_import_export2
 
 STEP2:
-A directory has been created in the hdfs as shown below
+A directory will be created in the hdfs which is empty which can be checked using web console.
 
 STEP3:
-Write the python code to export the data from mongodb to csv format and store it in HDFS
+Write the python code to export the data to csv format from mongodb and store it in HDFS.
 
 STEP4:
 Run the python code and the output is displayed.
