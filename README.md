@@ -2,6 +2,10 @@
 
 # Perform import export operation ie import data from mongodb database and export it to csv file and store it in HDFS.
 
+Version:
+hadoop 3.3.1
+MongoDB shell version v5.0.2
+
 STEP1: 
 Create a directory to store the data i.e. csv file into the hdfs.
 $ hadoop fs -mkdir /mongo_import_export2
