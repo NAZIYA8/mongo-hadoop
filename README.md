@@ -36,8 +36,11 @@ then import the data to the mongodb database.
 Step3:
 check if it is imported successfully in mongo shell using following commands.
 > show dbs
+ 
 > use test6
+
 > show collections
+ 
 > db.emp_details2.find({})
 
 Hence you can see that the data has been successfully imported into mongdb 
